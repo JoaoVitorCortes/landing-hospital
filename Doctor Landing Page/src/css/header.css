@@ -1,0 +1,63 @@
+header {
+  background-color: var(--background-home);
+  color: var(--color-paragraph);
+  font-size: var(--paragraph);
+  padding: 32px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+header .logo {
+  font-size: var(--title);
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  background-image: var(--gradiente);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  position: relative;
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -20px;
+  right: -40px;
+}
+
+.botao {
+  margin-left: auto;
+}
+
+header a:nth-child(2) {
+  color: var(--blue);
+}
+
+header i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 32px 10%;
+  }
+
+  .header-link {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    padding: 32px 1rem;
+  }
+
+  .botao {
+    display: none;
+  }
+}
