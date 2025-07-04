@@ -1,0 +1,39 @@
+header {
+  background-color: var(--background-home);
+  color: var(--color-paragraph);
+  font-size: var(--paragraph);
+  padding: 32px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  & .logo {
+    font-size: var(--title);
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    background-image: var(--gradiente);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: -20px;
+      right: -40px;
+    }
+  }
+
+  & .botao {
+    margin-left: 170px;
+  }
+
+  & a:nth-child(2) {
+    color: var(--blue);
+  }
+
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
