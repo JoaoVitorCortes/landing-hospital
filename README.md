@@ -1,27 +1,8 @@
-# Klinik24 - Medical Appointment App
+  # Klinik24 - Medical Appointment Landing Page
 
-🇧🇷 Projeto pessoal buscando praticar um layout responsivo com HTML e CSS vanilla.
+🇧🇷 Projeto pessoal buscando praticar um layout responsivo com HTML e CSS vanilla, utilizando o suporte do ResponsivelyApp para melhor visualização.
 
-🇺🇸 Personal project to practice responsive design with vanilla HTML & CSS
-
-🇧🇷 
-
-🇺🇸 Responsive landing page for a fictional medical clinic.  
-Built using pure HTML and CSS, focusing on layout structure and responsiveness.  
-One of my first personal projects to improve GitHub and practice front-end basics.
-
----
-
-## 📱 Features / Funcionalidades
-
-- 🇺🇸 Register and manage patients  
-  🇧🇷 Cadastro e gerenciamento de pacientes
-
-- 🇺🇸 Book and cancel appointments  
-  🇧🇷 Agendamento e cancelamento de consultas
-
-- 🇺🇸 Responsive design  
-  🇧🇷 Design responsivo
+🇺🇸 Personal project to practice responsive design with vanilla HTML & CSS, using ResponsivelyApp suport to get a better view.
 
 ---
 
@@ -29,7 +10,7 @@ One of my first personal projects to improve GitHub and practice front-end basic
 
 - HTML
 - CCS
-- Cloud Firestore
-- Provider / Riverpod (state management)
+- ResponsivelyApp
+- Figma
 
 ---
