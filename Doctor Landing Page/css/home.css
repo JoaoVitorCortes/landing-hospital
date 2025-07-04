@@ -1,0 +1,31 @@
+#home {
+  height: calc(100vh - 120px);
+  background-color: var(--background-home);
+  padding-top: 58px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  & .content-home {
+    & h1 {
+      background-image: var(--gradiente);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: var(--title-home);
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    & p {
+      color: var(--color-paragraph);
+      font-size: var(--paragraph);
+      font-weight: 400;
+      margin-bottom: 55px;
+    }
+  }
+
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}

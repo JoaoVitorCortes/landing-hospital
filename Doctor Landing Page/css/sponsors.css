@@ -1,0 +1,17 @@
+#sponsors {
+  text-align: center;
+  padding: 48px 195px;
+  background-color: var(--background-partners);
+
+  & h1 {
+    font-size: var(--title);
+    color: var(--color-title);
+    margin-bottom: 24px;
+  }
+
+  & .images-sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
