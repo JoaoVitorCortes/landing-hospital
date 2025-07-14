@@ -9,9 +9,17 @@
     margin-bottom: 24px;
   }
 
-  & .images-sponsors {
+  & .img-sponsors {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-sponsors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
